@@ -17,10 +17,10 @@ The coin acceptor controller consists of several functions for counting pulses a
 ### Pin connections
 Connect the pins as showed below:
 
-![Screenshot of athe connections](https://myoctocat.com/assets/images/base-octocat.svg)
+![assets/connections.jpeg)
 
 ### Progam the acceptor
-Here is the procedure how to program the acceptor to recognise a set of different coins.
+Here is the procedure how to program the acceptor to recognise a set of different coins. See [this tutorial](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) for more info.
 
 1. Press the "Add" and "minus" buttons at the same time for about three seconds, then the letter "A" will appear from the LED display.
 2. Press the "setup" button once, and the letter "E" will appear. Next, use the buttons to choose how many kinds of coins you would like to use; then press the "setup" button again to finish.
