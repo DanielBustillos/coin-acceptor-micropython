@@ -1,6 +1,6 @@
 # Coin acceptor Micropython
 
-This repository contains the code for controlling a coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested on a esp32.
+This repository contains the code for controlling a ch926 coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested on a esp32.
 
 I used [this tutorial in arduino language](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) as a guide to developing a micropython implementation. 
 
