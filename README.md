@@ -3,7 +3,6 @@
 This repository contains the code for controlling a coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested in a esp32.
 
 ## Overview
-
 The coin acceptor controller consists of several functions for counting pulses and calculating the equivalent money value based on predefined rules. It provides the following functionality:
 
 - **Pulse Counter:** The pulse_counter() function counts the pulses received from the coin acceptor and updates the pulse count accordingly. It also handles detecting new coins.
@@ -12,8 +11,6 @@ The coin acceptor controller consists of several functions for counting pulses a
 - **Coin Acceptor Initialization:** The coin_acceptor_constructor() function initializes the coin acceptor by setting the initial values and configuring the input pin with an interrupt service routine (ISR) to handle incoming pulse signals.
 
 ## Setup
-
-
 ### Pin connections
 Connect the pins as showed below:
 
@@ -38,9 +35,7 @@ The coin acceptor controller utilizes interrupts to handle incoming pulse signal
 
 - **Real-Time Response:** The coin acceptor generates pulses at a rapid pace, and it's crucial to detect and respond to these pulses in real-time. By using interrupts, the microcontroller can immediately interrupt its ongoing tasks and execute the ISR as soon as a pulse is detected, ensuring timely and accurate pulse counting.
 - **Non-Blocking Operation:** Interrupts allow the microcontroller to handle pulse detection and counting independently of other program operations. This non-blocking behavior ensures that the microcontroller can perform other tasks while waiting for pulses, such as updating display information or controlling other peripherals.
-- **Efficient Resource Utilization:** Without interrupts, the microcontroller would need to constantly poll the input pin's state to detect pulses. This polling approach can waste system resources and processing power, as the microcontroller would continuously check the pin's state even when no pulses are received. Interrupts, on the other hand, eliminate the need for continuous polling and enable the microcontroller to focus on other important tasks until a pulse occurs.
 
-By leveraging interrupts, the coin acceptor controller achieves accurate and efficient pulse counting, ensuring seamless integration with the coin acceptor and facilitating smooth operation of the overall system.
 
 ## Start counting coins
 
