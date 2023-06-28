@@ -2,7 +2,8 @@
 
 This repository contains the code for controlling a coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested on a esp32.
 
-I used [this tutorial in arduino language](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) as a guide to developing a micropython implementation.
+I used [this tutorial in arduino language](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) as a guide to developing a micropython implementation. 
+
 
 ## Overview
 The coin acceptor controller consists of several functions for counting pulses and calculating the equivalent money value based on predefined rules. It provides the following functionality:
@@ -28,18 +29,6 @@ Connect the pins as showed below:
 
 ## Setup acceptor swithches
 
-#### Impuls length
-
-- Fast(20ms) - **Select this**
-- Medium(50ms)
-- Slow(100ms)
-
-#### Normally open and Normally closed switch
-
-- Normally closed - **Select this**
-- Normally open
-
-
 ### Progam the acceptor
 
 
@@ -54,6 +43,18 @@ Here is the procedure how to program the acceptor to recognise a set of differen
 7. Press the "setup" button, and the letter "E" will appear. Finally, turn off and turn on the power. The setup will be stored.
 
 After that you can stast start sampling process. The manufacter recommends using 20 different coins. The sampling process will affect the accuracy of coin selector.
+
+#### Impuls length
+
+- Fast(20ms) - **Select this**
+- Medium(50ms)
+- Slow(100ms)
+
+#### Normally open and Normally closed switch
+
+- Normally closed - **Select this**
+- Normally open
+
 
 ## Interrupts and Their Necessity
 The coin acceptor controller utilizes interrupts to handle incoming pulse signals from the coin acceptor. An interrupt is an event that interrupts the normal execution of a program and triggers a specific function called an interrupt service routine (ISR). Here's why interrupts are necessary in this context:
