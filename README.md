@@ -32,13 +32,14 @@ Connect the pins as showed below:
 
 ### Impuls length
 
-- fast(20ms) **select this**
-- medium(50ms)
-- slow(100ms)
+- Fast(20ms) - **Select this**
+- Medium(50ms)
+- Slow(100ms)
 
 ### Normally open and Normally closed switch
 
-- Select normally closed
+- Normally closed - **Select this**
+- Normally open
 
 
 ### Progam the acceptor
