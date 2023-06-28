@@ -38,7 +38,7 @@ Here is the procedure how to program the acceptor to recognise a set of differen
 2. Press the "setup" button once, and the letter "E" will appear. Next, use the buttons to choose how many kinds of coins you would like to use; then press the "setup" button again to finish.
 3. The letter "H" will appear after pressing the button. Use the "Add" and "minus" buttons to choose how many samples you would like to insert later. Next press the "setup" button again to finish.
 4. The letter "P" will appear after pressing the button. Use the "Add" and "minus" buttons to choose the amount of output's signals/pulses you want. The quantity limited is 50 times. I recommend using something between 5 and 10 pulses. Next, press the "setup" button to finish.
-5. The letter "F" will appear after pressing the button. Use the "Add" and "minus" buttons to choose accuracy. The value is from 1~30, and 1 is the most accurate. Normally, 5~10 will be fine.Next, press the "setup" button to finish.
+5. The letter "F" will appear after pressing the button. Use the "Add" and "minus" buttons to choose accuracy. The value is from 1 to 30, and 1 is the most accurate. Normally, 5 to 10 will be fine.Next, press the "setup" button to finish.
 6. So far, you have  set up the first coin.  repeat all above procedures until you have set up all the coins. The letter "A" will appear again after all above procedures are finished.
 7. Press the "setup" button, and the letter "E" will appear. Finally, turn off and turn on the power. The setup will be stored.
 
