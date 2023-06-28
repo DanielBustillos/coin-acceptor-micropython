@@ -11,7 +11,7 @@ The coin acceptor controller consists of several functions for counting pulses a
 - **Coin Acceptor Initialization:** The coin_acceptor_constructor() function initializes the coin acceptor by setting the initial values and configuring the input pin with an interrupt service routine (ISR) to handle incoming pulse signals.
 
 ## Setup
-Configure the coin acceptor as showed below
+Configure the coin acceptor as showed below:
 
 ![horla](/assets/connections.jpeg)
 
@@ -25,7 +25,6 @@ Connect the pins as showed below:
 | DC12                                                            | None   | Connect to a 12V source |
 | GND                                                             | GND    | 12V ground              |
 | COIN (through this pin impulses are sent to the microcontroller | Pin 15 |                         |
-
 
 ![horla](/assets/connections.jpeg)
 
