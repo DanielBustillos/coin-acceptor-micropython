@@ -1,6 +1,6 @@
 # Coin acceptor Micropython
 
-This repository contains the code for controlling a coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested in a esp32.
+This repository contains the code for controlling a coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested on a esp32.
 
 ## Overview
 The coin acceptor controller consists of several functions for counting pulses and calculating the equivalent money value based on predefined rules. It provides the following functionality:
@@ -11,10 +11,20 @@ The coin acceptor controller consists of several functions for counting pulses a
 - **Coin Acceptor Initialization:** The coin_acceptor_constructor() function initializes the coin acceptor by setting the initial values and configuring the input pin with an interrupt service routine (ISR) to handle incoming pulse signals.
 
 ## Setup
+Configure the coin acceptor as showed below
+![horla](/assets/connections.jpeg)
+
 ### Pin connections
 Connect the pins as showed below:
 
+
 ![horla](/assets/connections.jpeg)
+
+| Pin Coin Acceptor                                               | Board  | Other                   |
+|-----------------------------------------------------------------|--------|-------------------------|
+| DC12                                                            | None   | Connect to a 12V source |
+| GND                                                             | GND    | 12V ground              |
+| COIN (through this pin impulses are sent to the microcontroller | Pin 15 |                         |
 
 
 ### Progam the acceptor
