@@ -19,18 +19,16 @@ Configure the coin acceptor as showed below
 
 ### Pin connections
 
-Connect the pins as showed below:
-
-
-![horla](/assets/connections.jpeg)
-
-
 | Pin Coin Acceptor                                               | Board  | Other                   |
 |-----------------------------------------------------------------|--------|-------------------------|
 | DC12                                                            | None   | Connect to a 12V source |
 | GND                                                             | GND    | 12V ground              |
 | COIN (through this pin impulses are sent to the microcontroller | Pin 15 |                         |
 
+Connect the pins as showed below:
+![horla](/assets/connections.jpeg)
+
+*Note:* as show in the picture, you need to add a 12 KOhm resistance in the COIN pin.
 
 ### Progam the acceptor
 Here is the procedure how to program the acceptor to recognise a set of different coins. See [this tutorial](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) for more info.
