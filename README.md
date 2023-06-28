@@ -46,13 +46,13 @@ After that you can stast start sampling process. The manufacter recommends using
 
 #### Impuls length
 
-- Fast(20ms) - **Select this**
+- Fast(20ms) - **Set this**
 - Medium(50ms)
 - Slow(100ms)
 
 #### Normally open and Normally closed switch
 
-- Normally closed - **Select this**
+- Normally closed - **Set this**
 - Normally open
 
 
