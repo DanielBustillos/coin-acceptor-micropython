@@ -14,11 +14,15 @@ The coin acceptor controller consists of several functions for counting pulses a
 Configure the coin acceptor as showed below
 ![horla](/assets/connections.jpeg)
 
+
+
 ### Pin connections
+
 Connect the pins as showed below:
 
 
 ![horla](/assets/connections.jpeg)
+
 
 | Pin Coin Acceptor                                               | Board  | Other                   |
 |-----------------------------------------------------------------|--------|-------------------------|
