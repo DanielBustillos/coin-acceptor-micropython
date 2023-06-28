@@ -18,7 +18,7 @@ The coin acceptor controller utilizes interrupts to handle incoming pulse signal
 
 - **Real-Time Response:** The coin acceptor generates pulses at a rapid pace, and it's crucial to detect and respond to these pulses in real-time. By using interrupts, the microcontroller can immediately interrupt its ongoing tasks and execute the ISR as soon as a pulse is detected, ensuring timely and accurate pulse counting.
 - **Non-Blocking Operation:** Interrupts allow the microcontroller to handle pulse detection and counting independently of other program operations. This non-blocking behavior ensures that the microcontroller can perform other tasks while waiting for pulses, such as updating display information or controlling other peripherals.
-- 
+
 ### Pin connections
 
 Connect the pins as showed below:
