@@ -12,17 +12,6 @@ The coin acceptor controller consists of several functions for counting pulses a
 - **Money Calculation:** The save_money_in_session() function saves the money introduced in the current session based on the pulse state. It uses the pulse_money_equivalences() function to calculate the equivalent money value based on the total number of pulses detected.
 - **Coin Acceptor Initialization:** The coin_acceptor_constructor() function initializes the coin acceptor by setting the initial values and configuring the input pin with an interrupt service routine (ISR) to handle incoming pulse signals.
 
-## Setup
-
-### Impuls length
-
-- fast(20ms) **select this**
-- medium(50ms)
-- slow(100ms)
-
-### Normally open and Normally closed switch
-
-- Select normally closed
 
 ### Pin connections
 
@@ -39,7 +28,22 @@ Connect the pins as showed below:
 
 *Note:* as show in the picture, you need to add a 10 KOhm resistance in the COIN pin.
 
+## Setup acceptor swithches
+
+### Impuls length
+
+- fast(20ms) **select this**
+- medium(50ms)
+- slow(100ms)
+
+### Normally open and Normally closed switch
+
+- Select normally closed
+
+
 ### Progam the acceptor
+
+
 Here is the procedure how to program the acceptor to recognise a set of different coins. 
 
 1. Press the "Add" and "minus" buttons at the same time for about three seconds, then the letter "A" will appear from the LED display.
