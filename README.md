@@ -12,6 +12,7 @@ The coin acceptor controller consists of several functions for counting pulses a
 
 ## Setup
 Configure the coin acceptor as showed below
+
 ![horla](/assets/connections.jpeg)
 
 
