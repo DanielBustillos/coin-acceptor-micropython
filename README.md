@@ -14,7 +14,7 @@ The coin acceptor controller consists of several functions for counting pulses a
 ### Pin connections
 Connect the pins as showed below:
 
-![/assets/connections.jpeg]
+!(horla)[/assets/connections.jpeg]
 
 ### Progam the acceptor
 Here is the procedure how to program the acceptor to recognise a set of different coins. See [this tutorial](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) for more info.
