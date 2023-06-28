@@ -2,6 +2,8 @@
 
 This repository contains the code for controlling a coin acceptor using a microcontroller. The code is written in MicroPython and designed to run on any MicroPython boards but it is only tested on a esp32.
 
+I used [this tutorial in arduino language](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) as a guide to developing a micropython implementation.
+
 ## Overview
 The coin acceptor controller consists of several functions for counting pulses and calculating the equivalent money value based on predefined rules. It provides the following functionality:
 
@@ -11,9 +13,16 @@ The coin acceptor controller consists of several functions for counting pulses a
 - **Coin Acceptor Initialization:** The coin_acceptor_constructor() function initializes the coin acceptor by setting the initial values and configuring the input pin with an interrupt service routine (ISR) to handle incoming pulse signals.
 
 ## Setup
-Configure the coin acceptor as showed below:
 
-![horla](/assets/connections.jpeg)
+### Impuls length
+
+- fast(20ms) **select this**
+- medium(50ms)
+- slow(100ms)
+
+### Normally open and Normally closed switch
+
+- Select normally closed
 
 ### Pin connections
 
@@ -31,7 +40,7 @@ Connect the pins as showed below:
 *Note:* as show in the picture, you need to add a 10 KOhm resistance in the COIN pin.
 
 ### Progam the acceptor
-Here is the procedure how to program the acceptor to recognise a set of different coins. See [this tutorial](https://www.instructables.com/How-to-Control-CH-926-Coin-Acceptor-With-Arduino/) for more info.
+Here is the procedure how to program the acceptor to recognise a set of different coins. 
 
 1. Press the "Add" and "minus" buttons at the same time for about three seconds, then the letter "A" will appear from the LED display.
 2. Press the "setup" button once, and the letter "E" will appear. Next, use the buttons to choose how many kinds of coins you would like to use; then press the "setup" button again to finish.
