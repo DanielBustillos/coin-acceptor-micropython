@@ -1,7 +1,5 @@
 from machine import Pin
 from time import time
-import helper_functions.globals as globals_file
-
 
 # Global variables
 pulse_count = 0
